@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+    <main class="container">
+        <div class="card container__item">
+            <p class="card__text">Текст <span class="card__text-inside">карточки</span></p>
+            <button class="button card__button">
+                <span class="button__text">Кнопочка</span>
+            </button>
+        </div>
+
+        <div class="card card_theme_dark card_content_left container__item">
+            <p class="card__text card__text_size_big">Текст карточки</p>
+        </div>
+
+        <div class="card card_selected container__item">
+            <p class="card__text">Текст карточки</p>
+        </div>
+    </main>
+</body>
+</html>
